@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[-webkit-box-sizing: ${1:content-box/padding-box/border-box};    	
+   -moz-box-sizing: ${1:content-box/padding-box/border-box};
+        box-sizing: ${1:content-box/padding-box/border-box};$0]]></content>
+    <tabTrigger>bsz</tabTrigger>
+    <scope>source.css</scope>
+    <description>box-sizing: content-box/padding-box/border-box</description>
+</snippet>

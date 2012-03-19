@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[list-style-position: inside;$0]]></content>
+    <tabTrigger>lspi</tabTrigger>
+    <scope>source.css</scope>
+    <description>list-style-position: inside</description>
+</snippet>

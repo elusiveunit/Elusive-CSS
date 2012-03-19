@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[-webkit-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};
+   -moz-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};
+    -ms-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};
+     -o-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};
+        transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};$0]]></content>
+    <tabTrigger>trf</tabTrigger>
+    <scope>source.css</scope>
+    <description>transform</description>
+</snippet>

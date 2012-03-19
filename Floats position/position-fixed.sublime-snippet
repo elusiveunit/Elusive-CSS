@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[position: fixed;$0]]></content>
+    <tabTrigger>pof</tabTrigger>
+    <scope>source.css</scope>
+    <description>position: fixed</description>
+</snippet>

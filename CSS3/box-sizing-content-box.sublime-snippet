@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[-webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+        box-sizing: content-box;$0]]></content>
+    <tabTrigger>bsb</tabTrigger>
+    <scope>source.css</scope>
+    <description>box-sizing: content-box</description>
+</snippet>

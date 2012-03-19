@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[${1:el}:link, ${1:el}:visited {$0}]]></content>
+    <tabTrigger>livi</tabTrigger>
+    <scope>source.css</scope>
+    <description>:link, :visited</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="search"]$0]]></content>
+    <tabTrigger>inptexts</tabTrigger>
+    <scope>source.css</scope>
+    <description>Textbox input types</description>
+</snippet>

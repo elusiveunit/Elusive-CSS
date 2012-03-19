@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[/*===========================================================================*\
+      =${1:Title}
+\*===========================================================================*/$0]]></content>
+    <tabTrigger>title1</tabTrigger>
+    <scope>source.css</scope>
+    <description>Big comment title</description>
+</snippet>
