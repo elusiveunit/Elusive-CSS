@@ -18,11 +18,11 @@ and if you're using pseudo elements a lot:
 
 	1. selector:bef*tab*
 	2. selector:before {
-		content: '';
-		display: block;
-		position: absolute;
-		|
-	}
+	      content: '';
+	      display: block;
+	      position: absolute;
+	      |
+	   }
 
 A lot of bleeding edge CSS3 is not yet implemented, due to limited use in production.
 
