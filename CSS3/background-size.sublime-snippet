@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[-webkit-background-size: ${1:100% 100%/50px 40px/contain/cover};
+        background-size: ${1:100% 100%/50px 40px/contain/cover};$0]]></content>
+    <tabTrigger>bgs</tabTrigger>
+    <scope>source.css</scope>
+    <description>background-size: size</description>
+</snippet>
