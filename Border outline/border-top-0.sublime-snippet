@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[border-top: 0;$0]]></content>
+    <tabTrigger>bt</tabTrigger>
+    <scope>source.css</scope>
+    <description>border-top: width style color</description>
+</snippet>
