@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[float: ${1:none/left/right};$0]]></content>
-    <tabTrigger>fl</tabTrigger>
-    <scope>source.css</scope>
-    <description>float: none/left/right</description>
-</snippet>
