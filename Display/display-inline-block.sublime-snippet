@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[display: inline-block;$0]]></content>
-    <tabTrigger>dib</tabTrigger>
-    <scope>source.css</scope>
-    <description>display: inline-block</description>
-</snippet>

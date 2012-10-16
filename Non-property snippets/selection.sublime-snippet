@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[::-moz-selection {background: ${1:#09abe1}; color: ${2:#fff}; text-shadow: none;}
-     ::selection {background: ${1:#09abe1}; color: ${2:#fff}; text-shadow: none;}$0]]></content>
-    <tabTrigger>selection</tabTrigger>
-    <scope>source.css -meta.property-list</scope>
-    <description>selection</description>
-</snippet>

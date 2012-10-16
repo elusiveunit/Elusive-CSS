@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[border-top: ${1:1px solid ${2:#333}};$0]]></content>
-    <tabTrigger>bt</tabTrigger>
-    <scope>source.css</scope>
-    <description>border-top: width style color</description>
-</snippet>

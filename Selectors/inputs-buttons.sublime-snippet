@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[button, input[type="button"], input[type="submit"], input[type="reset"]$0]]></content>
-    <tabTrigger>inpbtn</tabTrigger>
-    <scope>source.css</scope>
-    <description>Button input types</description>
-</snippet>

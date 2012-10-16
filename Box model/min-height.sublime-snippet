@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[min-height: ${1:0};$0]]></content>
-    <tabTrigger>mih</tabTrigger>
-    <scope>source.css</scope>
-    <description>min-height: height</description>
-</snippet>

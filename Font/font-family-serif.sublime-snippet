@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[font-family: ${1:Cambria, Georgia, serif};$0]]></content>
-    <tabTrigger>ffs</tabTrigger>
-    <scope>source.css</scope>
-    <description>font-family: family</description>
-</snippet>

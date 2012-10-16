@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[${1:el}:hover, ${1:el}:focus {$0}]]></content>
-    <tabTrigger>hofo</tabTrigger>
-    <scope>source.css</scope>
-    <description>:hover, :focus</description>
-</snippet>

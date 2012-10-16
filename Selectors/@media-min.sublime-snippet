@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[@media screen and (min-width: ${1:320px}) {$0}]]></content>
-    <tabTrigger>medmin</tabTrigger>
-    <scope>source.css</scope>
-    <description>@media screen and (min-width: Xpx)</description>
-</snippet>

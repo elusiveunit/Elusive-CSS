@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[input[type="url"]$0]]></content>
-    <tabTrigger>inpurl</tabTrigger>
-    <scope>source.css</scope>
-    <description>input[type="url"]</description>
-</snippet>

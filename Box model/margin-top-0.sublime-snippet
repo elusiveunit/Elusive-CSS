@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[margin-top: 0;$0]]></content>
-    <tabTrigger>mt0</tabTrigger>
-    <scope>source.css</scope>
-    <description>margin-top: 0</description>
-</snippet>

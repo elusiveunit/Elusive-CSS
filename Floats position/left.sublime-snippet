@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[left: ${1:0};$0]]></content>
-    <tabTrigger>le</tabTrigger>
-    <scope>source.css</scope>
-    <description>left: length</description>
-</snippet>

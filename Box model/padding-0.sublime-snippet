@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[padding: 0;$0]]></content>
-    <tabTrigger>p0</tabTrigger>
-    <scope>source.css</scope>
-    <description>padding: 0</description>
-</snippet>

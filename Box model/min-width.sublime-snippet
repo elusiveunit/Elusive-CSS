@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[min-width: ${1:0};$0]]></content>
-    <tabTrigger>miw</tabTrigger>
-    <scope>source.css</scope>
-    <description>min-width: width</description>
-</snippet>

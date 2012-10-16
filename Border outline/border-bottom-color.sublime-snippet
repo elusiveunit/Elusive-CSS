@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[border-bottom-color: ${1:#333};$0]]></content>
-    <tabTrigger>bbc</tabTrigger>
-    <scope>source.css</scope>
-    <description>border-bottom-color: color</description>
-</snippet>

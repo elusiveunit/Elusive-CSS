@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[/* -${1:Title}
------------------------------------------------------------------------------*/$0]]></content>
-    <tabTrigger>title2</tabTrigger>
-    <scope>source.css, source.js, source.php</scope>
-    <description>Medium comment title</description>
-</snippet>

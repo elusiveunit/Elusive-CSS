@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[border-bottom-width: ${1:1px};$0]]></content>
-    <tabTrigger>bbw</tabTrigger>
-    <scope>source.css</scope>
-    <description>border-bottom-width: width</description>
-</snippet>

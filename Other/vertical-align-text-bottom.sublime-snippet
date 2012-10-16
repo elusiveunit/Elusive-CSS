@@ -1,6 +1,0 @@
-<snippet>
-    <content><![CDATA[vertical-align: text-bottom;$0]]></content>
-    <tabTrigger>vatb</tabTrigger>
-    <scope>source.css</scope>
-    <description>vertical-align: text-bottom</description>
-</snippet>
