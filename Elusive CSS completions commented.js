@@ -158,7 +158,7 @@
 		{ "trigger": "vh", "contents": "visibility: hidden;$0" },
 		{ "trigger": "vv", "contents": "visibility: visible;$0" },
 		{ "trigger": "vc", "contents": "visibility: collapse;$0" },
-		
+
 		/* ---------- overflow ---------- */
 		{ "trigger": "o",  "contents": "overflow: ${1:[v]isible/[a]uto/[h]idden/[s]croll}${1/(v$)|(a$)|(h$)|(s$)|.*/?1:isible:?2:uto:?3:idden:?4:croll/i};$0" },
 		{ "trigger": "oa", "contents": "overflow: auto;$0" },
@@ -360,7 +360,7 @@
 		{ "trigger": "vis",  "contents": "visited$0" },
 		{ "trigger": "be",   "contents": "before$0" },
 		{ "trigger": "af",   "contents": "after$0" },
-		
+
 		/* ---------- Pseudo ---------- */
 		{ "trigger": "lc",   "contents": "last-child$0" },
 		{ "trigger": "fc",   "contents": "first-child$0" },
@@ -419,7 +419,7 @@
 		 *     border-radius
 		 *     background-size
 		 */
-		
+
 		{ "trigger": "op",   "contents": "opacity: ${1:0.5};$0" },
 		{ "trigger": "bra",  "contents": "border-radius: ${1:5px};$0" },
 		{ "trigger": "rgb",  "contents": "rgb(${1:70,130,220})$0" },
@@ -431,7 +431,7 @@
 		{ "trigger": "bgcl", "contents": "background-clip: ${1:[b]order-box/[p]adding-box/[c]ontent-box}${1/(b$)|(p$)|(c$)|.*/?1:order-box:?2:adding-box:?3:ontent-box/i};$0" },
 
 		{ "trigger": "bgo",  "contents": "background-origin: ${1:[p]adding-box/[c]ontent-box/[b]order-box}${1/(p$)|(c$)|(b$)|.*/?1:adding-box:?2:ontent-box:?3:order-box/i};$0" },
-		
+
 		/* Keep in mind: https://developer.mozilla.org/en-US/docs/CSS/background-size#Notes */
 		{ "trigger": "bgs",  "contents": "background-size: ${1:[c]over/[co]ntain/[a]uto/width (auto)/width height}${1/(c$)|(co$)|(a$)|.*/?1:over:?2:ntain:?3:uto/i};$0" },
 
@@ -464,17 +464,17 @@
 		{ "trigger": "to",  "contents": "text-overflow: ${1:[c]lip/[e]llipsis/'string'}${1/(c$)|(e$)|.*/?1:lip:?2:llipsis/i};$0" },
 
 		/* ---------- transition ---------- */
-		{ "trigger": "trs", "contents": "-webkit-transition: ${1:all} $2s ${3:ease/linear/ease-in/ease-out/ease-in-out};\n   -moz-transition: ${1:all} $2s ${3:ease/linear/ease-in/ease-out/ease-in-out};\n     -o-transition: ${1:all} $2s ${3:ease/linear/ease-in/ease-out/ease-in-out};\n        transition: ${1:all} $2s ${3:ease/linear/ease-in/ease-out/ease-in-out};" },
+		{ "trigger": "trs", "contents": "-webkit-transition: ${1:all} $2s ${3:ease/linear/ease-in/ease-out/ease-in-out};\n   -moz-transition: ${1:all} $2s ${3:ease/linear/ease-in/ease-out/ease-in-out};\n        transition: ${1:all} $2s ${3:ease/linear/ease-in/ease-out/ease-in-out};" },
 
 		/* ---------- transform ---------- */
-		{ "trigger": "trf", "contents": "-webkit-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};\n   -moz-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};\n    -ms-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};\n     -o-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};\n        transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};$0" },
+		{ "trigger": "trf", "contents": "-webkit-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};\n   -moz-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};\n    -ms-transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};\n        transform: ${1:rotate(deg)/scale(1.2, 1.3)/scaleX(1.2)/scaleY(1.2)/skew(deg)/skewX(deg)/skewY(deg)/translate(5px)/translateX(5px)/translateY(5px)};$0" },
 
-		{ "trigger": "trfo", "contents": "-webkit-transform-origin: ${1:X Y};\n   -moz-transform-origin: ${1:X Y};\n    -ms-transform-origin: ${1:X Y};\n     -o-transform-origin: ${1:X Y};\n        transform-origin: ${1:X Y};$0" },
+		{ "trigger": "trfo", "contents": "-webkit-transform-origin: ${1:X Y};\n   -moz-transform-origin: ${1:X Y};\n    -ms-transform-origin: ${1:X Y};\n        transform-origin: ${1:X Y};$0" },
 
 		/* ---------- columns ---------- */
 		{ "trigger": "cols", "contents": "-webkit-column-count: ${1:2};\n   -moz-column-count: ${1:2};\n        column-count: ${1:2};\n-webkit-column-gap: ${2:1em};\n   -moz-column-gap: ${2:1em};\n        column-gap: ${2:1em};$0" },
 
 		/* ---------- linear-gradient ---------- */
-		{ "trigger": "gral", "contents": "background: ${1:#222};\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%, ${1:#222}), color-stop(100%, ${2:#444}));\nbackground: -webkit-linear-gradient(top, ${1:#222} 0%, ${2:#444} 100%);\nbackground:    -moz-linear-gradient(top, ${1:#222} 0%, ${2:#444} 100%);\nbackground:      -o-linear-gradient(top, ${1:#222} 0%, ${2:#444} 100%);\nbackground:   linear-gradient(to bottom, ${1:#222} 0%, ${2:#444} 100%);$00" }
+		{ "trigger": "gral", "contents": "background: ${1:#222};\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%, ${1:#222}), color-stop(100%, ${2:#444}));\nbackground: -webkit-linear-gradient(top, ${1:#222} 0%, ${2:#444} 100%);\nbackground:    -moz-linear-gradient(top, ${1:#222} 0%, ${2:#444} 100%);\nbackground:   linear-gradient(to bottom, ${1:#222} 0%, ${2:#444} 100%);$00" }
 	]
 }
