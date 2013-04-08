@@ -5,7 +5,7 @@ Elusive CSS
 
 Elusive CSS is a package based on minimaldesign's [TextMate CSS Bundle](https://github.com/minimaldesign/mCSS.tmbundle).
 
-> "*The basic idea behind this CSS bundle is to access everything through tab triggers. You can access every CSS property by typing its initials.*" [More](http://minimaldesign.net/downloads/tools/textmate-css-bundle)
+> "The basic idea behind this CSS bundle is to access everything through tab triggers. You can access every CSS property by typing its initials." [More](http://minimaldesign.net/downloads/tools/textmate-css-bundle)
 
 This package uses different tab triggers, but the idea is the same. Also included are some shortcuts for common tasks, for instance (| = cursor):
 
