@@ -9,7 +9,7 @@
 	[
 		// For a complete copy->paste to a .sublime-completions file, these
 		// regexes clean up the code. Don't include the quotes.
-		// 1. Remove all comments: (/\*(?>(?:(?>[^*]+)|\*(?!/))*)\*/|//.+) to ''
+		// 1. Remove all comments: (?<!\b)(/\*(?>(?:(?>[^*]+)|\*(?!/))*)\*/|//.+) to ''
 		// 2. Remove extra line breaks and indentation: \s+\n to \n
 		// 3. Remove alignment spaces: ', +' to ', '
 
@@ -280,6 +280,7 @@
 		\*=====================================================================*/
 
 		{ "trigger": "lsn",  "contents": "list-style: none;$0" },
+		{ "trigger": "lsno",  "contents": "list-style: none outside;$0" },
 		{ "trigger": "lstn", "contents": "list-style-type: none;$0" },
 		{ "trigger": "lsi",  "contents": "list-style-image: url('$1');$0" },
 		{ "trigger": "lspo",  "contents": "list-style-position: ${1:[o]utside/[i]nside}${1/(o$)|(i$)|.*/?1:utside:?2:nside/i};$0" },
@@ -374,8 +375,8 @@
 
 		/* ---------- @ rules ---------- */
 		{ "trigger": "imp",   "contents": "@import url('$1');$0" },
-		{ "trigger": "memin", "contents": "@media screen and (min-width: ${1:320px}) {$0}" },
-		{ "trigger": "memax", "contents": "@media screen and (max-width: ${1:1200px}) {$0}" },
+		{ "trigger": "medmin", "contents": "@media screen and (min-width: ${1:320px}) {$0}" },
+		{ "trigger": "medmax", "contents": "@media screen and (max-width: ${1:1200px}) {$0}" },
 
 		/* ---------- Input selectors ---------- */
 		{ "trigger": "ibut", "contents": "input[type=\"button\"]$0" },
