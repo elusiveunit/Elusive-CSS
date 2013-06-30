@@ -35,7 +35,7 @@
 		{ "trigger": "bin|bgin", "contents": "background-image: none;$0" },
 
 		/* ---------- Repeat ---------- */
-		{ "trigger": "brp", "contents": "background-repeat: ${1:[r]epeat/[re]peat-x/[rep]eat-y/[n]o-repeat}${1/(r$)|(re$)|(rep$)|(n$)|.*/?1:epeat:?2:peat-x:?3:eat-y:?4:o-repeat/i};$0" },
+		{ "trigger": "brp|bgr", "contents": "background-repeat: ${1:[r]epeat/[re]peat-x/[rep]eat-y/[n]o-repeat}${1/(r$)|(re$)|(rep$)|(n$)|.*/?1:epeat:?2:peat-x:?3:eat-y:?4:o-repeat/i};$0" },
 		{ "trigger": "brr", "contents": "background-repeat: repeat;$0" },
 		{ "trigger": "brx", "contents": "background-repeat: repeat-x;$0" },
 		{ "trigger": "bry", "contents": "background-repeat: repeat-y;$0" },
